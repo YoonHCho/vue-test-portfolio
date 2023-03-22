@@ -1,5 +1,5 @@
 <template>
-  <div :class="[`bg-${theme}`, `${textColor}`, 'container', 'contact-container', 'mt-3', 'mb-3']">
+  <div :class="[`bg-${theme}`, `${textColor}`, 'container', 'contact-container', 'py-3', 'my-3']">
     <form action="https://formsubmit.co/377129fb4873193394d35aadd3682a3b" method="POST" class="p-1 mt-1">
       <!-- HONEYPOT -->
       <input type="text" name="_honey" class="honey">
@@ -7,7 +7,7 @@
       <!-- Disable Captcha -->
       <input type="hidden" name="_captcha" value="false">
 
-      <h1>Contact Me</h1>
+      <h1 class="p-1 mt-1">Contact Me</h1>
       <label for="name" class="ps-2">Name</label>
       <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
       <label for="email" class="ps-2">Email</label>
@@ -42,9 +42,4 @@ export default {
       width: 90%;
     }
   }
-  /* @media only screen and (min-width: 1200px) {
-    .contact-container {
-      width: 40%;
-    }
-  } */
 </style>
