@@ -1,0 +1,21 @@
+
+
+<form>
+  <div>
+    <label for="booking_date">Booking Date</label>
+    <input type="date" name="bokking_date" id="bokking_date">
+  </div>
+  <div>
+    <label for="booking_people">Number of People</label>
+    <input type="range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+    <output>4</output>
+  </div>
+  <div>
+    <label for="booking_location">Locations</label>
+    <input name="booking_location" id="booking_location" list="locations">
+    <datalist id="locations">
+      <option value="Downtown"></option>
+      <option value="Uptown"></option>
+    </datalist>
+  </div>
+</form>
