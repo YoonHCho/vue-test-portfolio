@@ -1,19 +1,7 @@
-# portfolio
+# Vue Portfolio
 
-## Project setup
-```
-npm install
-```
+I wanted to learn the basic of Vue so thought I should learn by creating portfolio-like page.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Demo
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![demo](./public/vue_port.gif "YoonHCho")
